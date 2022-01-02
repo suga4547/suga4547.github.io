@@ -1,0 +1,142 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.medsos {
+    padding:5px 0;
+    background-color: hotpink;
+}
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding:15px 0;
+    color: hotpink;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display:inline-block;
+}
+header ul li a:hover{
+    background-color: hotpink;
+    color: white;
+}
+.active {
+    background-color: hotpink;
+    color: white;
+}
+.banner {
+    height: 60vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+section {
+    padding:50px 0;
+}
+section h3 {
+    text-align: center;
+    background-size: 20px 0;
+    padding: 20px 0;
+    position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+section h3 p {
+    color: hotpink;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+section h3 p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+.active {
+    background-color: hotpink;
+    color: white;
+}
+section {
+    padding-bottom:100px 0;
+}
+section h5 {
+    text-align: center;
+    padding: 20px 0;
+    color: hotpink;
+}
+section h6 {
+    padding-bottom: 100px 0;
+}
+section h6 {
+        text-align: center;
+        word-spacing: 2px;
+        line-height: 25px;
+        color: hotpink;
+        margin-left: auto;
+}
+section h6:a {
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: auto;
+}
+.about{
+    padding-bottom: 100px;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.service {
+    background-color: white;
+}
+footer{
+    padding: 30px 0;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.service {
+    color: hotpink;
+}
